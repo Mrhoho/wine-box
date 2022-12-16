@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
     wine-box:
-        image: "chisbread/wine-box:latest"
+        image: "vampireliang/wine-box:latest"
         restart: unless-stopped
         container_name: "wine-box"
         ports:
